@@ -1,6 +1,6 @@
 # Dependencies
 node_modules/
-
+./node_modules/
 # Build output
 dist/
 build/
@@ -34,3 +34,13 @@ Thumbs.db
 # Testing
 coverage/
 *.lcov
+
+# Firebase — CLI cache, emulator output, and secrets (keep firebase.json / .firebaserc tracked unless your team prefers otherwise)
+.firebase/
+*-debug.log
+.runtimeconfig.json
+**/serviceAccountKey.json
+**/*-firebase-adminsdk-*.json
+functions/.env
+functions/.env.local
+functions/.env.*.local
