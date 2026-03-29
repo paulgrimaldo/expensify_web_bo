@@ -1,0 +1,32 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --green: #38E07B;
+  --green-dim: #2bc464;
+  --teal: #50E3C2;
+  --dark-bg: #122118;
+  --dark-card: #1A3A2E;
+  --dark-card-elevated: #1E2D24;
+  --dark-border: #2E5A3E;
+  --text-light: #E8F5E9;
+  --text-muted: #7CB98A;
+  --text-secondary: #D5E7D8;
+  --red: #FA5538;
+  --white: #FFFFFF;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: var(--dark-bg);
+  color: var(--text-light);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
